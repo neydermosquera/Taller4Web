@@ -1,0 +1,7 @@
+form{
+    font-family: Georgia;
+}
+
+input[nombre] {
+    font-style: italic;
+}
