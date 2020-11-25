@@ -18,7 +18,7 @@ input {
     box-sizing: border-box; 
     border: none; 
     color: black; 
-    font-size: 12px;
+    font-size: 20px;
     resize: horizontal; 
     
 }
@@ -43,7 +43,9 @@ button {
 select {
     font-size: 20px;
     background-color: white;
-    font-family: Georgia;
+    font-family: "Roboto", sans-serif;
     margin: 10px;
-
 }
+
+
+
