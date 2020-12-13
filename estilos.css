@@ -5,13 +5,13 @@ Body {
 form, select{
     font-size: 20px;
     background-color: #E7E7E7;
-    font-family: "Roboto", sans-serif;
-    margin: 10px;
+    font-family: sans-serif;
+    margin: 50px;
 }
 
 input {
     margin-bottom: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
     width: 65%;
     padding: 10px;
     -webkit-box-sizing: border-box;
@@ -24,10 +24,11 @@ input {
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
     background-color: green;
     text-align: center;
     color: white;
+    font-family: sans-serif;
 }
 
 button {
@@ -37,13 +38,13 @@ button {
 	padding: 11px 45px 11px 45px;
 	font-size: 1em; 
 	color: 	white;
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
 }
 
 select {
     font-size: 20px;
     background-color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
     margin: 10px;
 }
 
