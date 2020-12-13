@@ -1,0 +1,31 @@
+body {
+    background-color:lightgray
+}
+
+h1{
+    font-size:x-large;
+    background-color: beige;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+form, select{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 25px;
+}
+
+input {
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    width: 50%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border: none; 
+    color: black; 
+    font-size: 13px;
+    resize: horizontal; 
+    
+}
