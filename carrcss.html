@@ -9,8 +9,12 @@
 </head>
 <body>
 
-    <h1>REGISTRO DE AUTOS</h1>
+    
+   <div class = "registro">
+   
     <form id = "form1" nombre = "form1" method="post">
+        <h1>REGISTRO DE AUTOS</h1><br>
+
         <label for = "coches">Tipo de coche  </label>  
     <select name = "tipocoche">
         <option selected="true" disabled="disabled">Seleccione el tipo de coche</option>
@@ -22,7 +26,8 @@
         <option id = "tipo6">Van</option>
         <option id = "tipo7">Pick Up</option>
         <option id = "tipo8">Camion</option>
-    </select>
+    </select><br><br>
+
     <label for = "coches">Estado  </label>  
     <select name = "Estadocoche">
         <option selected="true" disabled="disabled">Seleccione el estado del vehiculo</option>
@@ -36,7 +41,8 @@
         <option id = "estado8">8/10</option>
         <option id = "esatdo9">9/10</option>
         <option id = "estado10">10/10 (Bueno)</option>
-    </select><br>
+    </select><br><br>
+
     <label for = "coches">Tipo de combustible </label>  
     <select name = "Movidoa">
         <option selected="true" disabled="disabled">Seleccione tipo de combustible</option>
@@ -45,7 +51,8 @@
         <option id = "movido3">ACPM</option>
         <option id = "movido4">Electrico</option>
         <option id = "movido5">Hibrido (Gasolina-Electrico)</option>
-    </select>
+    </select><br><br>
+
     <label for = "coches">Marca </label> 
     <select name = "Marecacoche">
         <option selected="true" disabled="disabled">seleccione la marca</option>
@@ -168,24 +175,31 @@
         <option value="2786090">Zafira</option>
         <option value="5826392">Zhongxing</option>
         <option value="2103728">Zotye</option>
-        </select><br>
-        <label for = "nombre">Nombre</label><br>
-        <input type = "text" id = "nombre" name = "nombre" placeholder="Escriba su nombre"><br>
-        <label for = "apellido">Apellido</label><br>
-        <input type = "text" id = "apellido" name = "apellido" placeholder="Esciba su apellido"><br>
-        <label for = "direccion">Dirección de residencia</label><br>
-        <input type ="text" id = "direccion" name = "direccion" placeholder = "Ejemplo: Calle 25 #29-11 Bucaramanga Santander"><br>
-        <laber for = "usuario">Usuario o Username </laber><br>
-        <input type = "text" id = "usuario" name = "usuario" placeholder = "Escriba su usuario"><br>
-        <laber for = "password">Contraseña</laber><br>
-        <input type = "password" id = "password" name = "password" placeholder = ""><br>
-        <laber for = "email">Dirección de correo electrónico</laber><br>
-        <input type = "text" id = "email" name = "email" placeholder = "nombre@correo.com"><br>
-        <laber for = "telefono">Número de teléfono o celular</laber><br>
-        <select name = "codigopais">
-    </form>
-</body>
+        </select><br><br>
+        <label for = "modelo">Modelo</label><br>
+        <input type = "text" id = "modelo" name = "modelo" placeholder="Escriba aquí el modelo del auto"><br>
+        <label for = "year">Año</label><br>
+        <input type = "text" id = "year" name = "year" placeholder="Esciba el año del auto"><br>
+        <label for = "caja">Caja</label>
+        <input type ="number" id = "caja" name = "caja" placeholder = "Escriba el numero de la caja">
+        <label for = "motor">Motor</label>
+        <input type = "number" id = "motor" name = "motor" placeholder="Escriba el numero del motor">
+        <label for = "fechapublicacion">Fecha de publicación</label>
+        <input type = "date" id = "fechapublicacion" name = "fechapublicacion" placeholder = "Seleccione la fecha de publicación">
+        <label for = "precio">Precio</label>
+        <input type = "number" id = "precio" name = "precio" placeholder = "Digite el precio del auto sin comas ni puntos">
+        <label for = "moneda">Moneda</label>
+        <input type="text" id = "moneda" name = "moneda" placeholder = "Especifique el tipo de moneda del valor del auto">
+        <label for = "descripcion">Descripción del auto</label><br>
+        <textarea name = "descripcion" class = "texto_descripcion" id = "descripcion" required = "obligadorio" placeholder = "Describa brevemente el auto"></textarea>
+       <button type = "submit" id = "registrar" name = "registrar">REGISTRAR</button>
+      
 
+    </form>
+</div>
+
+    
+</body>
 </html>
 
 
