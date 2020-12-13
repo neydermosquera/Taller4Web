@@ -1,12 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estiloscar.css" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="estiloscar.css" media="screen" />
     <title>Registro</title>
 </head>
 <body>
-    
+
+    <h1>REGISTRO DE AUTOS</h1>
+    <form id = "form1" nombre = "form1" method="post">
+        <label for = "coches">Tipo de coche  </label>  
+    <select name = "tipocoche">
+        <option selected="true" disabled="disabled">Seleccione el tipo de coche</option>
+        <option id = "tipo1">Sedán</option>
+        <option id = "tipo2">Hatchback</option>
+        <option id = "tipo3">SUV</option>
+        <option id = "tipo4">Deportivo</option>
+        <option id = "tipo5">Comercial</option>
+        <option id = "tipo6">Van</option>
+        <option id = "tipo7">Pick Up</option>
+        <option id = "tipo8">Camion</option>
+    </select>
+    <label for = "coches">Estado  </label>  
+    <select name = "Estadocoche">
+        <option selected="true" disabled="disabled">Seleccione el estado del vehiculo</option>
+        <option id = "estado1">1/10 (Malo)</option>
+        <option id = "estado2">2/10</option>
+        <option id = "estado3">3/10</option>
+        <option id = "estado4">4/10</option>
+        <option id = "estado5">5/10(Regular)</option>
+        <option id = "estado6">6/10</option>
+        <option id = "estado7">7/10</option>
+        <option id = "estado8">8/10</option>
+        <option id = "esatdo9">9/10</option>
+        <option id = "estado10">10/10 (Bueno)</option>
+    </select><br>
+    <label for = "coches">Tipo de combustible </label>  
+    <select name = "Movidoa">
+        <option selected="true" disabled="disabled">Seleccione tipo de combustible</option>
+        <option id = "movido1">Gas</option>
+        <option id = "movido2">Gasolina</option>
+        <option id = "movido3">ACPM</option>
+        <option id = "movido4">Electrico</option>
+        <option id = "movido5">Hibrido (Gasolina-Electrico)</option>
+    </select>
+    <label for = "coches">Marca </label> 
+    <select name = "Marecacoche">
+        <option selected="true" disabled="disabled">seleccione la marca</option>
+        <option value="">Todas las marcas</option>
+        <option value="18322">Alfa</option>
+        <option value="67695">Alfa Romeo</option>
+        <option value="378440">Asia</option>
+        <option value="69160">Aston Martin</option>
+        <option value="40661">Audi</option>
+        <option value="5958801">Ayco</option>
+        <option value="66352">BMW</option>
+        <option value="2103733">BYD</option>
+        <option value="2088960">Baic</option>
+        <option value="2103723">Brilliance</option>
+        <option value="67288">Buick</option>
+        <option value="24050">Cadillac</option>
+        <option value="3039611">Camaro</option>
+        <option value="966885">Campero</option>
+        <option value="389166">Chana</option>
+        <option value="389167">Changan</option>
+        <option value="2103721">Changhe</option>
+        <option value="2833012">Cherry</option>
+        <option value="389168">Chery</option>
+        <option value="58955">Chevrolet</option>
+        <option value="2880638">Chevy</option>
+        <option value="66395">Chrysler</option>
+        <option value="389169">Citroën</option>
+        <option value="2909426">Clio</option>
+        <option value="3335239">Corsa</option>
+        <option value="71467">DFM</option>
+        <option value="5826391">DFM/DFSK</option>
+        <option value="2103629">DFSK</option>
+        <option value="2130485">DS</option>
+        <option value="4208">Daewoo</option>
+        <option value="10075">Daihatsu</option>
+        <option value="66708">Dodge</option>
+        <option value="1253268">Dongfeng</option>
+        <option value="763275">Edge</option>
+        <option value="70603">Faw</option>
+        <option value="67781">Fiat</option>
+        <option value="66432">Ford</option>
+        <option value="307">Fort</option>
+        <option value="396748">Foton</option>
+        <option value="60552">GMC</option>
+        <option value="389171">Geely</option>
+        <option value="2103724">Gonow</option>
+        <option value="1119493">Great Wall</option>
+        <option value="378443">Hafei</option>
+        <option value="2103726">Haima</option>
+        <option value="2103732">Haval</option>
+        <option value="503290">Hino</option>
+        <option value="60559">Honda</option>
+        <option value="60407">Hummer</option>
+        <option value="1089">Hyundai</option>
+        <option value="14419">Infiniti</option>
+        <option value="19595">International</option>
+        <option value="396749">Iveco</option>
+        <option value="2783618">Iveco Daily</option>
+        <option value="2839844">JAC</option>
+        <option value="2220871">JMC</option>
+        <option value="23629">Jaguar</option>
+        <option value="60395">Jeep</option>
+        <option value="389174">Jinbei</option>
+        <option value="130907">John Deere</option>
+        <option value="8569063">Karry</option>
+        <option value="492699">Kenworth</option>
+        <option value="374002">Kia</option>
+        <option value="378444">Lada</option>
+        <option value="68762">Lamborghini</option>
+        <option value="70621">Lancia</option>
+        <option value="66655">Land Rover</option>
+        <option value="5044280">Landwind</option>
+        <option value="71552">Lexus</option>
+        <option value="380878">Lifan</option>
+        <option value="2767899">Logan</option>
+        <option value="64522">MG</option>
+        <option value="389176">Mahindra</option>
+        <option value="64049">Maserati</option>
+        <option value="98590">Master</option>
+        <option value="66811">Mazda</option>
+        <option value="75966">Mercedes-Benz</option>
+        <option value="65127">Mini</option>
+        <option value="2617857">Mini Cooper</option>
+        <option value="1138">Mitsubishi</option>
+        <option value="5996173">Montero</option>
+        <option value="60505">Nissan</option>
+        <option value="2400405">Oldsmobile</option>
+        <option value="25099">Onix</option>
+        <option value="60279">Peugeot</option>
+        <option value="505277">Piaggio</option>
+        <option value="60495">Pontiac</option>
+        <option value="56870">Porsche</option>
+        <option value="2223295">Prime</option>
+        <option value="2710997">RAM</option>
+        <option value="3061510">Range Rover</option>
+        <option value="9909">Renault</option>
+        <option value="61825">Rolls-Royce</option>
+        <option value="60268">SEAT</option>
+        <option value="2672690">Sail</option>
+        <option value="8266705">Shuanghuan</option>
+        <option value="2317930">Skoda</option>
+        <option value="6578808">Sonic</option>
+        <option value="2787006">Spark</option>
+        <option value="5052872">Sprint</option>
+        <option value="378447">Ssangyong</option>
+        <option value="60285">Subaru</option>
+        <option value="43943">Suzuki</option>
+        <option value="2427267">Swift</option>
+        <option value="2130484">Tesla</option>
+        <option value="81100">Toyo</option>
+        <option value="60297">Toyota</option>
+        <option value="6759736">Tucson</option>
+        <option value="8239317">UAZ</option>
+        <option value="104909">Versa</option>
+        <option value="2786046">Vitara</option>
+        <option value="60249">Volkswagen</option>
+        <option value="60658">Volvo</option>
+        <option value="399561">Willys</option>
+        <option value="2103734">Wuling</option>
+        <option value="2786090">Zafira</option>
+        <option value="5826392">Zhongxing</option>
+        <option value="2103728">Zotye</option>
+        </select><br>
+        <label for = "nombre">Nombre</label><br>
+        <input type = "text" id = "nombre" name = "nombre" placeholder="Escriba su nombre"><br>
+        <label for = "apellido">Apellido</label><br>
+        <input type = "text" id = "apellido" name = "apellido" placeholder="Esciba su apellido"><br>
+        <label for = "direccion">Dirección de residencia</label><br>
+        <input type ="text" id = "direccion" name = "direccion" placeholder = "Ejemplo: Calle 25 #29-11 Bucaramanga Santander"><br>
+        <laber for = "usuario">Usuario o Username </laber><br>
+        <input type = "text" id = "usuario" name = "usuario" placeholder = "Escriba su usuario"><br>
+        <laber for = "password">Contraseña</laber><br>
+        <input type = "password" id = "password" name = "password" placeholder = ""><br>
+        <laber for = "email">Dirección de correo electrónico</laber><br>
+        <input type = "text" id = "email" name = "email" placeholder = "nombre@correo.com"><br>
+        <laber for = "telefono">Número de teléfono o celular</laber><br>
+        <select name = "codigopais">
+    </form>
 </body>
+
 </html>
+
+
