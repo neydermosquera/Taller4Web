@@ -6,25 +6,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="dist/css/bootstrap.css">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <title>Registro Bootstrap</title>
 </head>
 <body>
 
-    <form id = "form1" nombre = "form1" method="post">
+    <form id = "form1" method = "post" action = "enviar.php" class = "form-control-file">
         <header>
-            <div>
-            <h1 class = "display-1">REGISTRO DE AUTOS</h1>
+            <div class="p-0 mb-2 bg-dark text-white">
+            <h1 class="text-uppercase text-center">REGISTRO DE AUTOS</h1>
             </div><br>
         </header>
 
         <div class="container">
             <section class ="main row" >
             
-                <label for = "coches" class = "col-md-3">Tipo de coche  </label>  
-                <select name = "tipocoche" class = "col-md-4">
+                <label for = "coches" class = "col-3">Tipo de coche  </label>  
+                <select name = "tipocoche" class = "col-4">
                     <option selected="true" disabled="disabled">Seleccione el tipo de coche</option>
                     <option id = "1">Sedán</option>
                     <option id = "2">Hatchback</option>
@@ -36,8 +37,8 @@
                     <option id = "8">Camion</option>
                 </select>
 
-                <label for = "coches" class = "col-md-1">Estado  </label>  
-                <select name = "Estadocoche" class = "col-md-4">
+                <label for = "coches" class = "col-1">Estado  </label>  
+                <select name = "Estadocoche" class = "col-4">
                     <option selected="true" disabled="disabled">Seleccione el estado del vehiculo</option>
                     <option id = "11">1/10 (Malo)</option>
                     <option id = "22">2/10</option>
@@ -55,8 +56,8 @@
         <div class="container">
             <section class ="main row" >
 
-                <label for = "coches" class = "col-md-3">Tipo de combustible </label>  
-                <select name = "Movidoa" class = "col-md-4">
+                <label for = "coches" class = "col-3">Tipo de combustible </label>  
+                <select name = "Movidoa" class = "col-4">
                     <option selected="true" disabled="disabled">Seleccione tipo de combustible</option>
                     <option id = "12">Gas</option>
                     <option id = "23">Gasolina</option>
@@ -65,8 +66,8 @@
                     <option id = "56">Hibrido (Gasolina-Electrico)</option>
                 </select>
 
-                <label for = "coches" class = "col-md-1">Marca </label> 
-                <select name = "Marecacoche" class = "col-md-4">
+                <label for = "coches" class = "col-1">Marca </label> 
+                <select name = "Marecacoche" class = "col-4">
                     <option selected="true" disabled="disabled">seleccione la marca</option>
                     <option value="18322">Alfa</option>
                     <option value="67695">Alfa Romeo</option>
@@ -193,50 +194,53 @@
          <div class="container">
             <section class ="main row" >
 
-                <label for = "modelo" class = "col-md-3">Modelo</label>
-                <input type = "text" id = "modelo" name = "modelo" placeholder="Escriba aquí el modelo del auto" class = "col-md-4">  
+                <label for = "modelo" class = "col-3">Modelo</label>
+                <input type = "text" id = "modelo" name = "modelo" placeholder="Escriba aquí el modelo del auto" class = "col-4" class = "form-control">  
 
-                <label for = "year" class = "col-md-1">Año</label>
+                <label for = "year" class = "col-1">Año</label>
                 <input type = "text" id = "year" name = "year" placeholder="Esciba el año del auto" class = "col-md-4">
              </section>
          </div><br>
 
          <div class="container">
             <section class ="main row" >
-                <label for = "caja" class = "col-md-3">Caja</label>
-                <input type ="number" id = "caja" name = "caja" placeholder = "Escriba el numero de la caja" class = "col-md-4">
+                <label for = "caja" class = "col-3">Caja</label>
+                <input type ="number" id = "caja" name = "caja" placeholder = "Escriba el numero de la caja" class = "col-4">
 
-                <label for = "motor" class = "col-md-1">Motor</label>
-                <input type = "number" id = "motor" name = "motor" placeholder="Escriba el numero del motor" class = "col-md-4">
+                <label for = "motor" class = "col-1">Motor</label>
+                <input type = "number" id = "motor" name = "motor" placeholder="Escriba el numero del motor" class = "col-4">
             </section>
          </div><br>
 
          <div class="container">
             <section class ="main row" >
-                <label for = "fechapublicacion" class = "col-md-3">Fecha de publicación</label>
-                <input type = "date" id = "fechapublicacion" name = "fechapublicacion" placeholder = "Seleccione la fecha de publicación"  class = "col-md-4">
+                <label for = "fechapublicacion" class = "col-3">Fecha de publicación</label>
+                <input type = "date" id = "fechapublicacion" name = "fechapublicacion" placeholder = "Seleccione la fecha de publicación"  class = "col-4">
 
-                <label for = "precio"   class = "col-md-1">Precio</label>
-                <input type = "number" id = "precio" name = "precio" placeholder = "Digite el precio del auto sin comas ni puntos"  class = "col-md-4">
+                <label for = "precio"   class = "col-1">Precio</label>
+                <input type = "number" id = "precio" name = "precio" placeholder = "Digite el precio del auto sin comas ni puntos"  class = "col-4">
             </section>
          </div><br>
 
          <div class="container">
             <section class ="main row" >
-                <label for = "moneda" class = "col-md-3">Moneda</label>
-                <input type="text" id = "moneda" name = "moneda" placeholder = "Especifique el tipo de moneda del valor del auto" class = "col-md-4">      
+                <label for = "moneda" class = "col-3">Moneda</label>
+                <input type="text" id = "moneda" name = "moneda" placeholder = "Especifique el tipo de moneda del valor del auto" class = "col-4">      
             </section>
          </div><br>
 
          <div class="container">
             <section class ="main row" >
-                <label for = "descripcion" class = "col-md-3">Descripción del auto</label><br>
+                <label for = "descripcion" class = "col-3">Descripción del auto</label><br>
                 <textarea class = "col-md-9" name = "descripcion" class = "texto_descripcion" id = "descripcion" required = "obligadorio" placeholder = "Describa brevemente el auto" >
                 </textarea>      
             </section>
          </div><br>
 
-         <button type = "button" class = "btn btn-primary">REGISTRAR</button><br><br>
+         <div class = "container">
+            <button type = "button"  class="btn btn-primary p-2 ">REGISTRAR</button><br><br>
+         </div>
+         
     </form>
 
 
